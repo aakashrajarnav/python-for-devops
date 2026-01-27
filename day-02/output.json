@@ -1,0 +1,59 @@
+{
+    "request": {
+        "type": "City",
+        "query": "Muzaffarpur, India",
+        "language": "en",
+        "unit": "m"
+    },
+    "location": {
+        "name": "Muzaffarpur",
+        "country": "India",
+        "region": "Bihar",
+        "lat": "26.117",
+        "lon": "85.400",
+        "timezone_id": "Asia/Kolkata",
+        "localtime": "2026-01-28 01:10",
+        "localtime_epoch": 1769562600,
+        "utc_offset": "5.50"
+    },
+    "current": {
+        "observation_time": "07:40 PM",
+        "temperature": 14,
+        "weather_code": 143,
+        "weather_icons": [
+            "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0006_mist.png"
+        ],
+        "weather_descriptions": [
+            "Mist"
+        ],
+        "astro": {
+            "sunrise": "06:34 AM",
+            "sunset": "05:29 PM",
+            "moonrise": "12:35 PM",
+            "moonset": "01:58 AM",
+            "moon_phase": "Waxing Gibbous",
+            "moon_illumination": 70
+        },
+        "air_quality": {
+            "co": "1243.85",
+            "no2": "45.85",
+            "o3": "68",
+            "so2": "35.75",
+            "pm2_5": "112.15",
+            "pm10": "116.75",
+            "us-epa-index": "4",
+            "gb-defra-index": "4"
+        },
+        "wind_speed": 8,
+        "wind_degree": 28,
+        "wind_dir": "NNE",
+        "pressure": 1017,
+        "precip": 0,
+        "humidity": 88,
+        "cloudcover": 0,
+        "feelslike": 14,
+        "uv_index": 0,
+        "visibility": 3,
+        "is_day": "no"
+    }
+}
