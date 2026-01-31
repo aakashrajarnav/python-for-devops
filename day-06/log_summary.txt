@@ -1,0 +1,9 @@
+LOG ANALYSIS SUMMARY
+==================================================
+Filter: ERROR
+Matching lines: 3
+--------------------------------------------------
+2025-01-10 09:10:22 ERROR Failed to fetch user data
+2025-01-10 09:10:25 ERROR Database timeout occurred
+2025-01-10 09:25:10 ERROR Unable to write logs to disk
+==================================================
