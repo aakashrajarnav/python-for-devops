@@ -1,5 +1,4 @@
 import boto3
-import boto3.session
 
 class AWSUtils:
     def __init__(self):
@@ -7,7 +6,6 @@ class AWSUtils:
         self.ec2 = self.get_connection("ec2")
 
     def get_connection(self,service):
-        boto3.session(access="ADSLDNASKLJND")
         return boto3.client(service) # creating a client for S3 so that it can call APIs
 
     def show_buckets(self):
@@ -40,6 +38,9 @@ class AWSUtils:
 
 print("Start")
 if __name__ == "__main__": # ye file ka jo execution hoga vo if confition ke andar hoga
+    """
+    if condition will only run if condition is true when we run this file directly else it wont run main code if imported
+    """
     print("Enter")
     aws = AWSUtils()
     print("hello from AWS Class wali file")
