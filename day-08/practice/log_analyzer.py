@@ -45,5 +45,5 @@ log_1 = LogAnalyzer("app.log","output1.json") # creating object
 log_count = log_1.analyze()
 
 # reusable clear # extensible
-log_1 = LogAnalyzer("app2.log","output2.json") # creating object
-log_count = log_1.analyze()
+log_2 = LogAnalyzer("app2.log","output2.json") # creating object
+log_count = log_2.analyze()
